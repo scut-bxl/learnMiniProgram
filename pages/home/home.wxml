@@ -1,2 +1,9 @@
-<!--pages/home/home.wxml-->
-<text class="title">hello world</text>
+<!-- 头部tabcontrol-->
+<tab-control titles="{{['我学的课','我教的课']}}" 
+   bind:itemClick="handleTabclick" />
+<!--展示课程具体内容   -->
+<view>
+  <block wx:for="{{courses[currentType]}}" wx:key='key'>
+    <course-item item="{{item}}" />
+  </block>
+</view>

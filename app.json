@@ -1,6 +1,40 @@
 {
+  "cloud":true,
   "pages": [
     "pages/home/home",
-    "pages/logs/logs"
-  ]
+    "pages/my/my",
+    "pages/messages/messages",
+    "pages/detail/detail"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "i学习",
+    "backgroundColor": "#ffffff",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "/assets/tabbar/主页2.png",
+        "selectedIconPath": "/assets/tabbar/主页1.png"
+      },
+      {
+        "pagePath": "pages/messages/messages",
+        "text": "所有课程",
+        "iconPath": "/assets/tabbar/消息1.png",
+        "selectedIconPath": "/assets/tabbar/消息2.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我",
+        "iconPath": "/assets/tabbar/用户1.png",
+        "selectedIconPath": "/assets/tabbar/用户2.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap78.json"
 }

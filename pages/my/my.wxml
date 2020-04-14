@@ -1,0 +1,4 @@
+<view>当前页面用于测试</view>
+<button bind:tap='handleAdd'>增加一条记录</button>
+<button bind:tap='handleDel'>删除一条记录</button>
+<button bind:tap='handleSel'>查询一条记录</button>

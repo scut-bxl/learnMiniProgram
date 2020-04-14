@@ -1,3 +1,6 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "tab-control":"/components/tab-control/tab-control",
+    "course-item": "/components/course-item/course-item"
+  }
 }

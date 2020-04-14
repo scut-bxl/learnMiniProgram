@@ -1,0 +1,22 @@
+/* components/course-item/course-item.wxss */
+.course-item{
+  border-radius: 10px;
+  margin: 20rpx;
+  margin-left:35rpx;
+  margin-right:35rpx;
+  width: 680rpx;
+  height: 200rpx;
+  background: #1295db;
+}
+.course-name{
+  padding: 20rpx;
+  color:white;
+  font-size: 120%;
+}
+.course-teacher{
+  padding: 20rpx;
+  color:white;
+  font-size: 100%;
+  position: absolute;
+  right:55rpx;
+}
