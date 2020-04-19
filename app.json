@@ -1,10 +1,11 @@
 {
-  "cloud":true,
+  "cloud": true,
   "pages": [
     "pages/home/home",
     "pages/my/my",
     "pages/messages/messages",
-    "pages/detail/detail"
+    "pages/detail/detail",
+    "pages/new_course/new_course"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ffffff",

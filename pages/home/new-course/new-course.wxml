@@ -1,0 +1,2 @@
+<!--pages/home/new-course.wxml-->
+<view class="title" bind:tap="handleNewCourse">新建课程</view>

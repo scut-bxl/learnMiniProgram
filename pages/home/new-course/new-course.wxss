@@ -1,0 +1,14 @@
+/* pages/home/new-course.wxss */
+.title{
+  border-radius: 10px;
+  margin: 20rpx;
+  margin-left:75rpx;
+  margin-right:75rpx;
+  width: 600rpx;
+  height: 100rpx;
+  background: #12d4e2;
+  text-align: center;
+  padding-top: 30rpx;
+  color: white;
+  font-size: 120%;
+}

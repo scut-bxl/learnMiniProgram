@@ -1,6 +1,7 @@
 {
   "usingComponents": {
     "tab-control":"/components/tab-control/tab-control",
-    "course-item": "/components/course-item/course-item"
+    "course-item": "/components/course-item/course-item",
+    "new-course":"/pages/home/new-course/new-course"
   }
 }

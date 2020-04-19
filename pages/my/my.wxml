@@ -1,4 +1,10 @@
-<view>当前页面用于测试</view>
-<button bind:tap='handleAdd'>增加一条记录</button>
-<button bind:tap='handleDel'>删除一条记录</button>
-<button bind:tap='handleSel'>查询一条记录</button>
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image  class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+</view>
+

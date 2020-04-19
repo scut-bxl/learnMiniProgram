@@ -1,5 +1,5 @@
 <!--components/course-item/course-item.wxml-->
 <view class='course-item'>
-  <view class='course-name'>{{item[0]}}</view>
-  <view class='course-teacher'>{{item[2]}}</view>
+  <view class='course-name'>{{item.course_name}}</view>
+  <view class='course-teacher'>{{item.teacher}}</view>
 </view>

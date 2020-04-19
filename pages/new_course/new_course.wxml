@@ -1,0 +1,16 @@
+<view class="title">创建课程</view>
+<view class="item">
+  <view class="item-name">
+  课程
+  </view>
+  <view class="item-text">
+  <input placeholder="请输入课程名称" bindinput="handleInCourse"> </input>
+  </view>
+</view>
+<view class="item">
+  <view class="item-name">教师</view>
+   <view class="item-text">
+   <input placeholder="请输入教师名称" bindinput="handleInTeacher"></input>
+  </view>
+</view>
+<button class="bt" bindtap="handleBtClick">完成</button>

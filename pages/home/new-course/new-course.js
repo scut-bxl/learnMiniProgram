@@ -1,10 +1,10 @@
-// components/course-item/course-item.js
+// pages/home/new-course.js
 Component({
   /**
    * 组件的属性列表
    */
   properties: {
-    item:Object
+
   },
 
   /**
@@ -18,6 +18,10 @@ Component({
    * 组件的方法列表
    */
   methods: {
-
+    handleNewCourse(){
+      wx.navigateTo({
+        url: '../new_course/new_course',
+      })
+    }
   }
 })

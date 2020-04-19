@@ -1,2 +1,8 @@
-<!--pages/detail/detail.wxml-->
-<text>pages/detail/detail.wxml</text>
+<view class='title'>{{course_name}} 学习资源</view>
+<tab-control titles="{{['课件','视频']}}" 
+   bind:itemClick="handleTabClick" />
+<view>
+  <block wx:for="{{currentType}}" wx:key='key'>
+<view>{{item}}</view>
+  </block>
+</view>

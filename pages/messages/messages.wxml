@@ -1,2 +1,7 @@
 <!--pages/messages/messages.wxml-->
-<text>待完成...</text>
+<view class='title'>所有课程</view>
+<view>
+  <block wx:for="{{course}}" wx:key='key'>
+    <course-item item="{{item}}" bind:longtap='handleLongtap' bind:tap='handleTap'  data-course_id="{{item._id}}"/>
+  </block>
+</view>

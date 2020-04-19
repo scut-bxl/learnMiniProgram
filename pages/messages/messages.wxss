@@ -1,1 +1,6 @@
 /* pages/messages/messages.wxss */
+.title{
+  font-size: 130%;
+  font-weight: bold;
+  margin: 40rpx;
+}

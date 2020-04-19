@@ -1,9 +1,13 @@
 <!-- 头部tabcontrol-->
 <tab-control titles="{{['我学的课','我教的课']}}" 
    bind:itemClick="handleTabclick" />
-<!--展示课程具体内容   -->
+<!--展示课程具体内容  -->
 <view>
   <block wx:for="{{courses[currentType]}}" wx:key='key'>
-    <course-item item="{{item}}" />
+    <course-item item="{{item}}" bind:longtap='handleLongtap' bind:tap='handleTap'  data-course_id="{{item.course_id}}" data-course_name="{{item.course_name}}" data-type="{{currentType}}"
+    />
   </block>
+  <view wx:if="{{currentType=='teach'}}">
+  <new-course />
+  </view>
 </view>

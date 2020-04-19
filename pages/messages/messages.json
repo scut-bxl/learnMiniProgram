@@ -1,4 +1,6 @@
 {
-  "usingComponents": {},
-  "navigationBarTitleText": "所有课程"
+  "usingComponents": {
+    "course-item": "/components/course-item/course-item"
+    },
+  "navigationBarTitleText": "i学习"
 }
